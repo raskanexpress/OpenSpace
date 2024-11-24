@@ -1,5 +1,5 @@
 ---
-title: Your Post Title 2
+title: Your Post Title
 date: 2024-11-24
 category: Career
 tags: [productivity, career-advice]

@@ -1,0 +1,51 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student & Career Blog</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.0.2/marked.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="site-title">
+                <h1><a href="index.html">Prachi's Student & Career Blog</a></h1>
+            </div>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search posts...">
+                <button onclick="searchPosts()"><i class="fas fa-search"></i></button>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <aside class="sidebar">
+            <div class="categories-section">
+                <h2>Categories</h2>
+                <ul id="categoriesList"></ul>
+            </div>
+            <div class="tags-section">
+                <h2>Tags</h2>
+                <div id="tagCloud"></div>
+            </div>
+            <div class="about-section">
+                <h2><a href="about.html">About</a></h2>
+            </div>
+        </aside>
+
+        <main>
+            <div id="postsList"></div>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Student & Career Blog</p>
+    </footer>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>

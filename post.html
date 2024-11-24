@@ -1,0 +1,39 @@
+<!-- post.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.0.2/marked.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="site-title">
+                <h1><a href="index.html">Student & Career Blog</a></h1>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main class="post-content">
+            <div id="postContent"></div>
+            <div class="social-share">
+                <button onclick="share('twitter')"><i class="fab fa-twitter"></i> Share</button>
+                <button onclick="share('linkedin')"><i class="fab fa-linkedin"></i> Share</button>
+            </div>
+        </main>
+    </div>
+
+    <div class="back-to-top" onclick="scrollToTop()">↑</div>
+
+    <footer>
+        <p>&copy; 2024 Student & Career Blog</p>
+    </footer>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>
